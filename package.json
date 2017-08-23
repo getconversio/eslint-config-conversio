@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-conversio",
+  "version": "1.0.0",
+  "description": "ESLint Conversio configuration",
+  "main": "index.js",
+  "repository": "git@github.com:getconversio/eslint-config-conversio.git",
+  "author": "Stefano Sala <stefano@conversio.com>",
+  "license": "MIT"
+}
