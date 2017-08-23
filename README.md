@@ -7,7 +7,7 @@ ESLint Config Conversio
 
 ## Basic configuration
 
-Add a `.eslint.json` configuration file in your project's root directory with this content:
+Add a `.eslintrc.json` configuration file in your project's root directory with this content:
 
 ```
 {
