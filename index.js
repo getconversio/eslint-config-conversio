@@ -28,9 +28,18 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'one-var': 'off',
     'prefer-template': 'off',
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      anonymous: 'never',
+      named: 'never',
+      asyncArrow: 'always'
+    }],
     strict: 'off',
     'import/no-dynamic-require': 'off',
-    'no-cond-assign': ['error', 'except-parens']
+    'no-cond-assign': ['error', 'except-parens'],
+    indent: ['error', 2, {
+      MemberExpression: 'off',
+      SwitchCase: 1
+    }],
+    'no-multi-spaces': ['error', { ignoreEOLComments: true }]
   }
 }
