@@ -7,7 +7,9 @@ module.exports = {
   globals: {
     fetch: true,
     Headers: true,
-    Request: true
+    Request: true,
+    URL: true,
+    FormData: true
   },
   rules: {
     'arrow-body-style': 'off',
