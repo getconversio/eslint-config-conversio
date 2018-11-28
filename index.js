@@ -39,6 +39,7 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'object-curly-newline': ['error', { consistent: true }],
     'one-var': 'off',
+    'operator-linebreak': ['warn', 'after'],
     'prefer-template': 'off',
     'space-before-function-paren': ['error', {
       anonymous: 'never',
