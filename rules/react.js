@@ -11,7 +11,7 @@ module.exports = {
   settings: {
     react: {
       pragma: 'React',
-      version: '16.4'
+      version: '16.6'
     }
   },
   rules: {
@@ -38,11 +38,7 @@ module.exports = {
       afterOpening: 'never'
     }],
     'react/no-unknown-property': ['error', { ignore: ['crossOrigin'] }],
-
-    // Prevent usage of deprecated methods
     'react/no-deprecated': ['error'],
-
-    // Require render() methods to return something
     'react/require-render-return': 'error',
 
     // Prevent missing parentheses around multilines JSX
