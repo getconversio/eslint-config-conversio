@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'airbnb-base',
-    './rules/react'
+    './rules/react.js'
   ],
   env: {
     node: true,
