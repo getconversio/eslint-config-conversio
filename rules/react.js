@@ -7,13 +7,14 @@ module.exports = {
       jsx: true
     }
   },
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   settings: {
     react: {
       pragma: 'React',
-      version: '16.6'
+      version: '16.8'
     }
   },
+  extends: ['plugin:react/recommended'],
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
     'react/prop-types': ['error', { ignore: ['match'] }],
@@ -60,6 +61,8 @@ module.exports = {
       allowBind: false,
       ignoreDOMComponents: true,
     }],
-  },
-  extends: ['plugin:react/recommended']
+
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
 };
