@@ -32,6 +32,7 @@ module.exports = {
     'no-confusing-arrow': 'off',
     'no-continue': 'off',
     'no-multi-spaces': ['error', { ignoreEOLComments: true }],
+    'no-multiple-empty-lines': ['error', { max: 1 }],
     'no-param-reassign': 'off',
     'no-path-concat': 'off',
     'no-plusplus': 'off',
